@@ -1,0 +1,65 @@
+Breakpoint 1 at 0x998: file ls1.c, line 30.
+Starting program: /lab4/ls1 
+warning: Error disabling address space randomization: Operation not permitted
+
+Breakpoint 1, do_ls (dirname=0xaaaacbce0ab0 ".") at ls1.c:30
+30		if((dir_ptr=opendir(dirname))==NULL)
+__opendir (name=0xaaaacbce0ab0 ".") at ../sysdeps/posix/opendir.c:89
+89	../sysdeps/posix/opendir.c: No such file or directory.
+92	in ../sysdeps/posix/opendir.c
+Continuing.
+[Inferior 1 (process 275) exited normally]
+Starting program: /lab4/ls1 . .
+warning: Error disabling address space randomization: Operation not permitted
+
+Breakpoint 1, do_ls (dirname=0xffffc44888a3 ".") at ls1.c:30
+30		if((dir_ptr=opendir(dirname))==NULL)
+Continuing.
+
+Breakpoint 1, do_ls (dirname=0xffffc44888a5 ".") at ls1.c:30
+30		if((dir_ptr=opendir(dirname))==NULL)
+No symbol "dif_ptr" in current context.
+$1 = (DIR *) 0x2e31736c
+$2 = (struct dirent *) 0x632e3173
+__opendir (name=0xffffc44888a5 ".") at ../sysdeps/posix/opendir.c:89
+89	../sysdeps/posix/opendir.c: No such file or directory.
+Quit
+Quit
+invalid_name (name=0xffffc44888a5 ".") at ../sysdeps/posix/opendir.c:89
+89	in ../sysdeps/posix/opendir.c
+__opendir (name=0xffffc44888a5 ".") at ../sysdeps/posix/opendir.c:92
+92	in ../sysdeps/posix/opendir.c
+Undefined command: "Q".  Try "help".
+Quit
+Quit
+Quit
+Quit
+Quit
+Quit
+Quit
+Quit
+Quit
+Quit
+Undefined command: "strp".  Try "help".
+__GI___open64_nocancel (file=0xffffc44888a5 ".", oflag=542720)
+    at ../sysdeps/unix/sysv/linux/open64_nocancel.c:37
+37	../sysdeps/unix/sysv/linux/open64_nocancel.c: No such file or directory.
+Quit
+Quit
+Quit
+45	in ../sysdeps/unix/sysv/linux/open64_nocancel.c
+Quit
+Quit
+Quit
+Quit
+Quit
+Quit
+Quit
+Quit
+Quit
+Quit
+Quit
+Quit
+Quit
+Quit
+Quit
