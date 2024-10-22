@@ -1,0 +1,6 @@
+total 40
+drwxr-xr-x 2 root root  4096 Sep  8 05:56 .
+drwxr-xr-x 1 root root  4096 Sep  8 05:44 ..
+-rw-r--r-- 1 root root     0 Sep  8 05:56 listing
+-rwxr-xr-x 1 root root 29950 Sep  8 05:44 test
+KNUcat listing

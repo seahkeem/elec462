@@ -1,0 +1,47 @@
+    1  man
+    2  man man
+    3  pwd
+    4  cd /etc
+    5  pwd
+    6  cd ~
+    7  pwd
+    8  cd
+    9  pwd
+   10  cd ..
+   11  man ls
+   12  ls
+   13  ls -al
+   14  ls -ltr
+   15  cd /usr/include
+   16  ls
+   17  ls *.h
+   18  ls
+   19  cd ..
+   20  ls
+   21  mkdir lab2
+   22  cd lab2
+   23  cp /usr/include/
+   24  cp /usr/include/stdio.h testfile
+   25  ls -al; ls -l
+   26  mv testfile test
+   27  ls -l test 
+   28  cp test test2
+   29  ls -l test
+   30  rm test2; ls
+   31  cat test
+   32  less test
+   33  head test
+   34  head test -n20 test
+   35  tail test
+   36  ls -l
+   37  chmod a+x test
+   38  ls -l
+   39  2R0;276;0c10;rgb:9494/abab/bcbc11;rgb:1c1c/2626/2d2d2R0;276;0c10;rgb:9494/abab/bcbc11;rgb:1c1c/2626/2d2d
+   40  cat test | more
+   41  ls -al > listing
+   42  cat listing
+   43  echo "KNUcat listing" >> listing
+   44  cat listing
+   45  wc -l < listing
+   46  grep putc /usr/include/*.h
+   47  history > lab2_s2021117027.log
